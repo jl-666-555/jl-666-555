@@ -1,16 +1,37 @@
-## Hi there 👋
+💻 软件工程本科生  ☕ Java 后端开发学习者 | Spring Boot | Mybatis-Plus | Redis | 🏆 算法竞赛爱好者
 
-<!--
-**jl-666-555/jl-666-555** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## 🎓 校园经历
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**[广州华商校园]** | [软件工程] | 本科 | [2023]年9月 - [2027]年6月
+
+*   **算法经历**：在校积极参加各种算法竞赛，曾代表学校参加ICPC/CCPC等等赛事，这些团队性赛事让我在团队协作、逻辑思维以及高压环境下的编码能力得到很大的提升。
+
+---
+
+## 🏆 获奖经历
+
+### 算法与程序设计竞赛
+
+| 时间 | 比赛名称 | 获奖情况 |
+| :--- | :--- | :--- |
+| 2026-05 | 团体程序设计天梯赛国赛 | 三等奖 |
+| 2026-05 | 码题杯省赛 | 三等奖 |
+| 2025-07 |睿抗编程赛道省赛 |  三等奖 |
+| 2025-04 | 蓝桥杯省赛 | 三等奖 |
+
+### 其他荣誉
+
+*   2023-2024 学年：获得 校级二等奖学金 荣誉称号。
+*   2024-2025 学年：获得 校级二等奖学金 荣誉称号。
+
+---
+
+## 💡 ICPC竞赛与项目经历
+
+*   **ICPC竞赛**曾两次参加ICPC竞赛：在训练和比赛过程中积累了算法设计、团队协作和临场解题经验。虽然暂未获得顶级奖项，但这段经历让我更加重视基础能力和持续学习。
+*   **项目开发一**：参与开发了 AI驱动的个人知识学习与管理平台，使用 Spring Boot + Spring Security + JWT + MyBatis-Plus + MySQL + Redis + Caffeine + Resilience4j，实现了双 Token 认证、SSE 流式 AI 问答、Function Calling 读写笔记、@Version 乐观锁防并发覆盖写，以及 Resilience4j 熔断降级和 Caffeine 本地缓存抗热点读；解决了接口水平越权、多端并发覆盖写、模型故障拖垮服务、分类树热点读这几类问题
+*   **项目开发二**：校园选课与生活社区平台**：使用 Spring Boot + MySQL + Redis + RabbitMQ + MyBatis-Plus，实现了 Redis + Lua 原子预扣库存、RabbitMQ 异步落库削峰、一人一单三层防护（Redis Set + Redisson + DB 唯一索引），以及状态机管理选课生命周期，解决了高并发超卖、重复选课和名额超时占用。
+---
+*“保持热爱，持续学习。”*
