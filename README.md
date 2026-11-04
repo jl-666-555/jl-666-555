@@ -8,7 +8,7 @@
 
 ### 🚀 个人项目 (Featured Projects)
 
-#### 1. [AI驱动的个人知识管理与学习平台](在这里替换成你的第一个项目仓库链接)
+#### 1. [AI驱动的个人知识管理与学习平台](github.com/jl-666-555/selfKnowledge-hub)
 > 基于 Spring Boot + Spring AI 的大模型应用，内置 AI 学习助理。
 *   **核心特性**：基于 JWT 双 Token 认证、SSE 流式对话、Function Calling 工具调用、Caffeine + Redis 多级缓存、Resilience4j 熔断降级。
 *   **技术栈**：`Java` `SpringBoot` `MySQL` `Redis` `Caffeine` `LLM`
