@@ -9,14 +9,16 @@
 ### 🚀 个人项目 (Featured Projects)
 
 #### 1. [AI Agent 驱动的个人知识管理与学习平台](https://github.com/jl-666-555/selfKnowledge-hub)
-> 基于 Spring Boot + Spring AI 的大模型应用，内置 AI 学习助理。
-*   **核心特性**：基于 JWT 双 Token 认证、SSE 流式对话、Function Calling 工具调用、Caffeine + Redis 多级缓存、Resilience4j 熔断降级。
-*   **技术栈**：`Java` `SpringBoot` `MySQL` `Redis` `Caffeine` `Resilience4j`
+> 基于 Spring AI 的笔记 Agent：模型自主调用工具检索笔记与学习记录，再组织回答。
+*   **Agent 核心**：6 个 `@Tool` 接口（笔记检索、分类筛选、学习记录读写等），模型按问题自主选择工具并多轮调用，完成检索问答与自动记录。
+*   **记忆与流式**：记忆按 sessionId 滑动窗口隔离，聊天历史全量落库；SSE 流式返回走独立线程池，不占用 Tomcat 请求线程。
+*   **安全与高可用**：userId 由 ToolContext 服务端注入防越权；Resilience4j 熔断降级，写操作 AOP 异步审计。
+*   **技术栈**：`Java` `Spring Boot 3` `Spring AI` `MySQL` `Redis` `Resilience4j` `Vue 3`
 
-#### 2. [校园选课与生活社区平台](在这里替换成你的第二个项目仓库链接)
+#### 2. [校园选课与生活社区平台](https://github.com/jl-666-555/school-hub)
 > 基于 Spring Boot 的高并发选课系统，解决秒杀与消息可靠性问题。
 *   **核心特性**：Redis + Lua 脚本原子扣库存、RabbitMQ 异步削峰落库、乐观锁与唯一索引防重、缓存穿透/击穿/雪崩治理。
-*   **技术栈**：`Java` `SpringBoot` `MySQL` `Redis` `RabbitMQ` `JMeter`
+*   **技术栈**：`Java` `SpringBoot` `MySQL` `Redis` `RabbitMQ` `Vue`
 
 ---
 
